@@ -160,10 +160,10 @@ public class BookDbAdptr {
 	
 	public long insertUniqueAuthor(Author author) {
 		ContentValues newBook = new ContentValues();
-		newBook.put(this.AUTHOR_NAME_COL_NAME, author.getName());
-		newBook.put(this.AUTHOR_BIRTH_YEAR_COL_NAME, author.getBirthYear());
-		newBook.put(this.AUTHOR_DEATH_YEAR_COL_NAME, author.getDeathYear());
-		newBook.put(this.AUTHOR_COUNTRY_COL_NAME, author.getCountry());
+		newBook.put(AUTHOR_NAME_COL_NAME, author.getName());
+		newBook.put(AUTHOR_BIRTH_YEAR_COL_NAME, author.getBirthYear());
+		newBook.put(AUTHOR_DEATH_YEAR_COL_NAME, author.getDeathYear());
+		newBook.put(AUTHOR_COUNTRY_COL_NAME, author.getCountry());
 		Cursor rslt = mDb.query(AUTHOR_TABLE, new String[] { AUTHOR_NAME_COL_NAME }, 
 				AUTHOR_NAME_COL_NAME + "=" + "\"" + author.getName() + "\"", 
 				null, null, null, null);
