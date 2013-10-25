@@ -1,0 +1,21 @@
+<resources>
+
+    <string name="app_name">SimpleDbApp01</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_simple_db_act01">SimpleDbAct01</string>
+    <string name="btn_create_db_txt">Create DB</string>
+    <string name="btn_clean_db_txt">Clean DB</string>
+    <string-array name="book_table">
+        <item>The Essential Rumi;Jalal adDin Rumi;C. Barks, J. Moyne;9780062509581;17.51</item>
+        <item>The Illuminated Rumi;Jalal adDin Rumi;C. Barks;9780767900027;25.04</item>
+        <item>A Year with Rumi: Daily Readings;Jala adDin Rumi;C. Barks;9780060845971;14.92</item>
+        <item>A Year with Hafiz: Daily Contemplations;Hafiz;D. Ladinsky;9780143117544;12.24</item>
+        <item>The Gift;Hafiz;Daniel Ladinsky;9780140195811;12.24</item>
+    </string-array>
+    <string-array name="author_table">
+        <item>Jalal adDin Rumi;1207;1273;Persia</item>
+        <item>Hafiz;1325;1389;Persia</item>
+    </string-array>
+
+</resources>
